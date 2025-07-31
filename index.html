@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Para Ale 💌</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      font-family: 'Courier New', monospace;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      max-width: 600px;
+      text-align: center;
+    }
+
+    .title {
+      font-size: 2em;
+      color: #ff4b91;
+      margin-bottom: 20px;
+    }
+
+    .poem {
+      font-size: 1.2em;
+      color: #333;
+      white-space: pre-wrap;
+      border-right: 2px solid #333;
+      width: 0;
+      overflow: hidden;
+      animation: typing 8s steps(60, end) forwards, blink 1s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+
+    .from {
+      margin-top: 30px;
+      font-size: 1em;
+      color: #555;
+      opacity: 0;
+      animation: fadeIn 2s ease-in forwards;
+      animation-delay: 8s;
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">Para ti, Ale 💖</div>
+    <div class="poem">
+      En cada palabra suspiro,  
+      en cada silencio, te pienso,  
+      eres paz en mi tormenta,  
+      el refugio que más deseo.  
+
+      Tus ojos, dos estrellas,  
+      que alumbran mi oscuridad,  
+      tu risa, mi melodía,  
+      mi razón de felicidad.
+    </div>
+    <div class="from">Con amor, Isaac 🌹</div>
+  </div>
+</body>
+</html>
